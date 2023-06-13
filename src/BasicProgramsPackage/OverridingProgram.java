@@ -14,8 +14,9 @@ class OverridingProgram {
 		}
 	}
 	
-	class mainly{
-		public static void main(String [] args) {
+	class Mainly {
+		public static void main(String[] args) {
+			
 			OverridingProgram  Mo = new MethodOverriding1();
 			Mo.ride();
 		}
