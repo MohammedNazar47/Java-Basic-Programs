@@ -17,9 +17,4 @@ public class FibonacciSeries {
 
 	}
 
-	public static void fibno() {
-		// TODO Auto-generated method stub
-		
-	}
-
 }
