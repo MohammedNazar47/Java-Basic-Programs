@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class PerfectNumberThroughUser {
 
-	public static void main(String[] args) {
+	public static void throughperfect(){
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter the number");
 		 int no = scanner.nextInt();

@@ -2,7 +2,7 @@ package BasicProgramsPackage;
 
 public class CouponNumber {
 
-	public static void main(String[] args) {
+	public static void CodeNumber() {
 		char [] chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789".toCharArray();
 		//System.out.println(chars);
 		int max = 100000000;

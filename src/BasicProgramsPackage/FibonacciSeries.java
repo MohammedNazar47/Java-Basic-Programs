@@ -2,7 +2,7 @@ package BasicProgramsPackage;
 
 public class FibonacciSeries {
 
-	public static void main(String[] args) {
+	public static void fibno() {
 		
 		int n1 = 0;
 		int n2 = 1;
@@ -15,6 +15,11 @@ public class FibonacciSeries {
 			n2 = n3;
 		}
 
+	}
+
+	public static void fibno() {
+		// TODO Auto-generated method stub
+		
 	}
 
 }

@@ -2,7 +2,7 @@ package BasicProgramsPackage;
 
 public class ReverseNumber {
 
-	public static void main(String[] args) {
+	public static void reverseno() {
 		int no =1234;
 		int rev = 0;
 		while(no!=0) {

@@ -2,7 +2,7 @@ package BasicProgramsPackage;
 
 public class Overloading_Method {
 	
-	public static void main(String[] args) {
+	public static void methodover() {
 		int []arr = new int [4];  
 //		int [] arr = {1,2,3,4,5,6};  or
 //		for(int i = 0;i<=arr.length-1;i++) {

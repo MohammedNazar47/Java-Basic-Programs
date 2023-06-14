@@ -18,7 +18,7 @@ public class MethodOverloading {
 			System.out.println(c);
 		}
 		
-	public static void main(String[] args) {
+	public static void overload() {
 		MethodOverloading mo = new MethodOverloading();
 		mo.add();
 		int ref= mo.add(40,47);
