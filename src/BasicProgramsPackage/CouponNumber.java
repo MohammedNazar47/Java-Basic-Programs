@@ -4,10 +4,9 @@ public class CouponNumber {
 
 	public static void CodeNumber() {
 		char [] chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789".toCharArray();
-		//System.out.println(chars);
-		int max = 100000000;
+		int max = 1000000000;
 		int random = (int) (Math.random()*max);
-		StringBuffer sb = new StringBuffer();
+		StringBuffer sb = new StringBuffer();    
 		while(random>0) {
 			
 			sb.append(chars[random % chars.length]);

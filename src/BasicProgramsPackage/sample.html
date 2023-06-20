@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed's portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 48);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(143, 143, 217);
+            font-size: 1rem;
+        }
+
+        main hr {
+            border: 0;
+            background-color: rgb(155, 150, 242);
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 27px 10px;
+            align-items: center;
+        }
+
+        .firstSection div {
+            margin: 0%;
+        }
+
+        .leftSection {
+            font-size: 3rem;
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            background-color: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .rightSection img {
+            width: 80%;
+            margin: 58px 0;
+
+        }
+
+        .purple {
+            color: rgb(207, 171, 241)
+        }
+
+        #element {
+            color: rgb(207, 171, 244)
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 1vh;
+        }
+
+        .i1 {
+            width: 25px;
+            height: 25px;
+            margin: 17px 30px;
+        }
+
+        .i1:hover{
+            background-color: rgb(220, 220, 231);
+            border-radius: 10px;
+        }
+
+        .i2 {
+            width: 25px;
+            height: 25px;
+            margin: 17px 30px;
+        }
+
+        .i2:hover{
+            border-radius: 10px;
+        }
+
+        .i3 {
+            width: 25px;
+            height: 25px;
+            margin: 17px 30px;
+        }
+
+        .i3:hover{
+            border-radius: 10px;
+        }
+
+        /* footer.footer {
+            height: 50px;
+            width: 100%;
+            background-color: #333333;
+        } */
+
+        p.copyright1 {
+            color: #fff;
+            line-height: 1px;
+            font-size: 1em;
+            text-align: center;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Mohammed's portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Mohammed nazar</span>
+                <div> and i am passionate </div>
+                <div>Java Developler</div>
+                <span id="element"></span>
+                <div class="button">
+                
+                    <button class="btn"> Download Resume  <a href="https://drive.google.com/file/d/11Yy_Ni-a3jUmWOnSrlqn7unGcHg73CRd/view?usp=drive_link" download="cv.pdf"></a></button>
+
+                    
+                        
+                       
+                    <!-- <button class="btn">Download Resume</button></a> -->
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="pic.png">
+            </div>
+        </section>
+
+        <hr>
+        <section class="secondSection"></section>
+        <footer class="footer">
+
+            <div class="footer_socials">
+                <a href="https://www.instagram.com" class="footer_social">
+                    <img src="insta.png" class="i1">
+                </a>
+
+                <a href="https://www.facebook.com" class="footer_social2">
+                    <img src="face.png" class="i2">
+                </a>
+
+                <a href="https://www.twitter.com" class="footer_social3">
+                    <img src="twitt.png" class="i3">
+                </a>
+
+                <!-- <div>
+                        <div class="copy1">
+                            <h4>copyright &copy; Mohammed nazar</h4>
+                        </div>
+                    </div>
+                </div> -->
+
+                <div class="footerContainer">
+                    <p class="copyright1">© copyright 2023 Mohammedsportfolio.com | All rights reserved</p>
+                </div>
+
+
+        </footer>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'and video editor'],
+            typeSpeed: 70,
+        });
+
+//         function downloadFile(url, fileName){
+//   fetch(url, { method: 'get', mode: 'no-cors', referrerPolicy: 'no-referrer' })
+//     .then(res => res.blob())
+//     .then(res => {
+//       const aElement = document.createElement('a');
+//       aElement.setAttribute('download', fileName);
+//       const href = URL.createObjectURL(res);
+//       aElement.href = href;
+//       // aElement.setAttribute('href', href);
+//       aElement.setAttribute('target', '_blank');
+//       aElement.click();
+//       URL.revokeObjectURL(href);
+//     });
+// };
+
+function download_file(fileURL, fileName) {
+// for non-IE
+if (!window.ActiveXObject) {
+    var save = document.createElement('a');
+    save.href = fileURL;
+    save.target = '_blank';
+    var filename = fileURL.substring(fileURL.lastIndexOf('/')+1);
+    save.download = fileName || filename;
+       if ( navigator.userAgent.toLowerCase().match(/(ipad|iphone|safari)/) && navigator.userAgent.search("Chrome") < 0) {
+            document.location = save.href; 
+// window event not working here
+        }else{
+            var evt = new MouseEvent('click', {
+                'view': window,
+                'bubbles': true,
+                'cancelable': false
+            });
+            save.dispatchEvent(evt);
+            (window.URL || window.webkitURL).revokeObjectURL(save.href);
+        }   
+}
+
+// for IE < 11
+else if ( !! window.ActiveXObject && document.execCommand)     {
+    var _window = window.open(fileURL, '_blank');
+    _window.document.close();
+    _window.document.execCommand('SaveAs', true, fileName || fileURL)
+    _window.close();
+}
+}
+
+
+document.querySelector('button').onclick =function () {
+  download_file('https://drive.google.com/file/d/11Yy_Ni-a3jUmWOnSrlqn7unGcHg73CRd/view?usp=drive_link', 'CV.pdf');
+}
+
+    </script>
+</body>
+
+</html>
